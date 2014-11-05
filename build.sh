@@ -25,9 +25,9 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 AUTHOR="${AUTHOR:-W. Trevor King <wking@tremily.us>}"
-NAMESPACE="${NAMESPACE:-wking}"
-DATE="${DATE:-20141023}"
-MIRROR="${MIRROR:-http://distfiles.gentoo.org/}"
+NAMESPACE="${NAMESPACE:-sgiuliari}"
+DATE="${DATE:-20141113}"
+MIRROR="${MIRROR:-http://ftp-stud.hs-esslingen.de/pub/Mirrors/gentoo/}"
 ARCH_URL="${ARCH_URL:-${MIRROR}releases/amd64/autobuilds/${DATE}/}"
 STAGE3="${STAGE3:-stage3-amd64-${DATE}.tar.bz2}"
 STAGE3_CONTENTS="${STAGE3_CONTENTS:-${STAGE3}.CONTENTS}"
@@ -49,28 +49,12 @@ REPOS="${REPOS:-
 	gentoo-openrc
 	gentoo-syslog
 	gentoo-java
-	gentoo-layman
-	gentoo-node
 	buildbot
 	docker-registry
 	elasticsearch
-	hubot
-	irker
 	memcached
-	nagios
-	nginx
-	nginx-proxy
-	kibana
-	kibana-azure
-	ngircd
 	package-cache
-	postgresql
-	redis
-	salt
-	salt-master
-	salt-minion
 	stunnel
-	thumbor
 	}"
 
 die()

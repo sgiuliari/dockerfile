@@ -10,7 +10,7 @@
 =dev-python/itsdangerous-0.24 ~amd64
 
 # required by dev-python/flask-cors (argument)
-=dev-python/flask-cors-0.8.0 ~amd64
+=dev-python/flask-cors-1.9.0 ~amd64
 
 # required by dev-python/backports-lzma (argument)
 =dev-python/backports-lzma-0.0.2-r1 ~amd64
